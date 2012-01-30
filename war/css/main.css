@@ -1,0 +1,47 @@
+#body {
+	font-family: arial, sans-serif;
+	margin: 30px;
+}
+
+h1 {
+	color: #333;
+	border-bottom: #333 1px dotted;
+}
+
+/* menu */
+
+#menu{display:block; width:100%; height:auto; overflow:hidden; margin:10px 0; padding:0;}
+#menu li{display:inline; font-size:12px;}
+#menu li a{text-decoration:none; color:#333;}
+#menu li a:hover{text-decoration:underline;}
+
+#wrapper{width:900px; height:auto; overflow:hidden; margin:0 auto;}
+#wrapper p{font-size:14px;}
+
+/* form */
+label{font-size:12px;}
+input[type='text']{
+	border:solid 1px #e7e7e7;
+	padding:5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+input[type='submit']{
+	border:solid 1px #e7e7e7;
+	padding:5px;
+	color:#333;
+	text-align:center;
+	font-weight:bold;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor:pointer;
+}
+
+/* footer */
+#footer{width:900px; height:auto; overflow:hidden; margin:0 auto; padding-top:10px; border-top:solid 1px #e7e7e7; background-color:#f9f9f9; padding-bottom:10px;}
+#footer p{text-align:center; font-size:12px; margin:5px 0;}
+#footer p a{ color:#66b7db; text-decoration:underline;}
+#footer p a:hover{text-decoration:none;}
+
